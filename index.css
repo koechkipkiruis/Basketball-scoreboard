@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+}
+.container{
+background-color: rgba(45, 45, 66, 0.959);
+width: 500px;
+height: 210px;
+margin: auto;
+border-radius: 9px;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    color: white;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+}
+
+.home-points{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#point-entryF{
+    margin: 20px;
+    color: #F94F6D;
+    background-color: black;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: Cursed Timer ULiL;
+    width: 120px;
+    height: 60px;
+    border-radius: 5px;
+}
+#point-entryS{
+    margin: 20px;
+    color: #F94F6D;
+    background-color: black;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: Cursed Timer ULiL;
+    width: 120px;
+    height: 60px;
+    border-radius: 5px;
+}
+.points-btn{
+    display: flex;
+    justify-content: space-around; 
+   
+}
+.points{
+    font-family: Cursed Timer ULiL;
+    border-radius: 2px; 
+    border-color: white;
+}
